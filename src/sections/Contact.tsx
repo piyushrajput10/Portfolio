@@ -1,6 +1,9 @@
 import { useState, type FormEvent } from 'react';
 import FadeUp from '../components/FadeUp';
 import { contactLinks } from '../data';
+import ResumeButton from '../components/CVButton';
+
+
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
@@ -59,6 +62,7 @@ export default function Contact() {
                   <span className="ml-auto text-text-dim group-hover:text-accent transition-colors duration-200">→</span>
                 </a>
               ))}
+              <ResumeButton/>
             </div>
 
             {/* Social strip */}
@@ -67,6 +71,7 @@ export default function Contact() {
               {[
                 { label: 'LinkedIn', href: 'https://linkedin.com/in/rajput-piyush' },
                 { label: 'GitHub', href: 'https://github.com/piyushrajput10' },
+               
               ].map((s) => (
                 <a
                   key={s.label}
@@ -78,6 +83,8 @@ export default function Contact() {
                   {s.label}
                 </a>
               ))}
+              
+              
             </div>
           </FadeUp>
 
