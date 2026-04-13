@@ -2,6 +2,8 @@
 
 A modern, dark-themed developer portfolio built with **React 18**, **TypeScript**, and **Tailwind CSS**.
 
+**Live Demo:** [piyush-rajput-portfolio.vercel.app](https://piyush-rajput-portfolio.vercel.app/)
+
 ## ✨ Features
 
 - ⚡ Vite for blazing-fast dev & build
