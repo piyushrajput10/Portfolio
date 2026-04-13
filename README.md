@@ -52,17 +52,6 @@ All content lives in **`src/data/index.ts`** — update your:
 - Projects (title, description, features, stack)
 - Contact links
 
-## 🌐 Deployment
-
-**Vercel** (recommended):
-```bash
-npm i -g vercel
-vercel
-```
-
-**Netlify:**
-- Build command: `npm run build`
-- Publish directory: `dist`
 
 ## 🎨 Design System
 
