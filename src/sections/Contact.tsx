@@ -66,7 +66,7 @@ export default function Contact() {
               <span className="font-mono text-xs text-text-dim tracking-widest mr-2">FIND ME ON</span>
               {[
                 { label: 'LinkedIn', href: 'https://linkedin.com/in/rajput-piyush' },
-                { label: 'GitHub', href: '#' },
+                { label: 'GitHub', href: 'https://github.com/piyushrajput10' },
               ].map((s) => (
                 <a
                   key={s.label}
